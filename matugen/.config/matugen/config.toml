@@ -1,0 +1,35 @@
+[config.wallpaper]
+set = true
+command = "awww img --transition-type any {{image}}"
+
+
+[templates.swaync]
+input_path = './templates/colors.css'
+output_path = '~/.config/swaync/colors.css'
+
+
+[templates.waybar]
+input_path = './templates/colors.css'
+output_path = '~/.config/waybar/colors.css'
+post_hook = 'pkill -SIGUSR2 waybar;swaync-client -R -rs > /dev/null'
+
+
+[templates.wlogout]
+input_path = './templates/colors.css'
+output_path = '~/.config/wlogout/colors.css'
+
+
+[templates.rofi]
+input_path = './templates/rofi_colors.rasi'
+output_path = '~/.config/rofi/colors.rasi'
+
+
+[templates.hyprland]
+input_path = './templates/hyprland_colors.conf'
+output_path = '~/.config/hypr/colors.conf'
+
+
+[templates.kitty]
+input_path = './templates/kitty_colors.conf'
+output_path = '~/.config/kitty/colors.conf'
+post_hook = "pkill -SIGUSR1 kitty"
