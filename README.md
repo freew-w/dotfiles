@@ -13,7 +13,8 @@ Most of them are copied from <https://github.com/binnewbs/arch-hyprland>
 
 ### Install Oh My Zsh
 
-> Dont override the .zshrc
+> Dont override .zshrc
+
 <https://ohmyz.sh/#install>
 
 ### Apply GTK Theme & Icon Theme
