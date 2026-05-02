@@ -127,7 +127,7 @@
           "command": "~/.config/hypr/scripts/power_profile.sh"
         },
         {
-          "label": "",
+          "label": "W",
           "type": "normal",
           "command": "pkill -SIGUSR1 waybar"
         },
