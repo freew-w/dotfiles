@@ -119,7 +119,7 @@
         {
           "label": "",
           "type": "normal",
-          "command": "~/.config/hypr/scripts/screenshot.sh"
+          "command": "flameshot gui"
         },
         {
           "label": "",
